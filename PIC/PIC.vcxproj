@@ -127,18 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\ProgramsVS\CringeOs\PIC\Common\Backend\PIC_Backend.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\..\..\ProgramsVS\CringeOs\PIC\main.c" />
+    <ClCompile Include="PIC_Backend.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\ProgramsVS\CringeOs\PIC\Common\Backend\PIC_Backend.h" />
-    <ClInclude Include="..\..\..\..\..\..\ProgramsVS\CringeOs\PIC\Common\PIC_Common.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-    </ClInclude>
+    <ClInclude Include="PIC_Backend.h" />
+    <ClInclude Include="PIC_Common.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
