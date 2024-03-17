@@ -21,15 +21,15 @@
     <ClCompile Include="..\..\..\..\..\..\ProgramsVS\CringeOs\PIC\main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\ProgramsVS\CringeOs\PIC\Common\Backend\PIC_Backend.c">
+    <ClCompile Include="PIC_Backend.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\ProgramsVS\CringeOs\PIC\Common\PIC_Common.h">
+    <ClInclude Include="PIC_Common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\ProgramsVS\CringeOs\PIC\Common\Backend\PIC_Backend.h">
+    <ClInclude Include="PIC_Backend.h">
       <Filter>Header Files\Backend</Filter>
     </ClInclude>
   </ItemGroup>
